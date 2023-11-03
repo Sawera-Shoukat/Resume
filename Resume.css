@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items:center;
+
+}
+.container-part1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.head{
+    width: 100;
+    padding-bottom: 25px;
+    
+}
+.head h1{
+    color: palevioletred;
+}
+
+.head img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+padding-top: 10px;}
+    .start h1{
+        color: palevioletred;
+    }
+    .start h3{
+        padding-top: 5px;
+        align-items: center;
+    }
+.main{
+    
+    background-color: white;
+    color: black;
+    display: flex;
+   
+    justify-content: center;
+
+}
+.left{
+    
+        width: 300px;
+        height: 400%;
+        float: left;
+    
+}
+.left p{
+    line-height: 2;
+}
+.left ul li{
+    line-height: 1.5;
+    list-style: none;
+}
+.skills{
+    padding: 5px;
+}
+.skills h1{
+    padding-top: 10px;
+    color: palevioletred;
+}
+.skills p{
+    padding-bottom: 10px;
+}
+.lang{
+    padding: 5px;
+}
+.lang h1{
+    color: palevioletred;
+}
+.right{
+   
+    width: 450px;
+    height: 400%;
+}
+.profile h1{
+    color: palevioletred;
+}
+.right ul li{
+    line-height: 1.5;
+    list-style: none;
+}
+ .project h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 5px;
+    
+}
+.project h1{
+    color: palevioletred;
+}
+.project p{
+    padding: 5px;
+    letter-spacing:2px; 
+    text-align: justify;
+}
+.education{
+    padding: 5px;
+}
+.education h1{
+    padding: 5px;
+    color: palevioletred;
+}
+.education p{
+    padding: 5px;
+
+}
+
+.part3{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+.hobby ul li{
+    line-height: 1.5;
+}
+.hobby{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.hobby h1{
+    color: palevioletred;
+}
+
+
+
+
